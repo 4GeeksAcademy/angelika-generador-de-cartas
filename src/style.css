@@ -1,1 +1,87 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  /* background-color: #c3c3c3; */
+  background-image: url("https://st2.depositphotos.com/4028173/9698/i/600/depositphotos_96989506-stock-photo-green-billiards-cloth-color-texture.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#btnGenerate {
+  margin-top: 3em;
+  justify-content: center;
+  display: flex;
+}
+
+.container-card {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 200px;
+  color: #000;
+  font-weight: 700;
+  white-space: nowrap;
+  padding: 80px 60px;
+}
+
+@media (max-width: 991px) {
+  .container-card {
+    font-size: 40px;
+    white-space: initial;
+    padding: 0 20px;
+  }
+}
+
+.card {
+  border-radius: 50px;
+  background-color: #fff;
+  display: flex;
+  width: 500px;
+  height: 650px;
+  max-width: 100%;
+  flex-direction: column;
+  padding: 46px 29px;
+  /* visibility: hidden; */
+}
+
+@media (max-width: 991px) {
+  .card {
+    height: auto;
+    margin-top: 40px;
+    font-size: 40px;
+    white-space: initial;
+    padding: 0 20px;
+  }
+}
+
+.top-icon {
+  object-position: center;
+  width: 80px;
+  max-width: 100%;
+}
+
+.card-value {
+  font-family: Inter, sans-serif;
+  align-self: center;
+  margin-top: 25px;
+}
+
+@media (max-width: 991px) {
+  .card-value {
+    font-size: 3em;
+  }
+}
+
+.bottom-icon {
+  object-position: center;
+  width: 80px;
+  align-self: end;
+  margin-top: 80px;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+  .bottom-icon {
+    margin-top: 25px;
+  }
+}
